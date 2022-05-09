@@ -18,8 +18,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>SocialDogWKUOderingPage</title>
  <link rel="stylesheet" type="text/css" href="CSS/cssfordbms.css">
- <link rel="stylesheet" type="text/css" href="../学习/E-Commerce/CSS/all.css">
- <link rel="stylesheet" type="text/css" href="../学习/E-Commerce/CSS/all.min.css" >
+ <link rel="stylesheet" type="text/css" href="CSS/all.css">
+ <link rel="stylesheet" type="text/css" href="CSS/all.min.css" >
 </head>
 <header>
     <div id="header_line1">

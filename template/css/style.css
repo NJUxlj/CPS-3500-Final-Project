@@ -53,6 +53,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -4008,6 +4009,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: black;
 }
 
 .navbar .container,
@@ -4026,6 +4028,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  background-color: black;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4060,6 +4063,7 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  background-color: black;
 }
 
 .navbar-toggler {

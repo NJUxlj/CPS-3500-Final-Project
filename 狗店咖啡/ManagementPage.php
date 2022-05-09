@@ -62,7 +62,11 @@
                     $sql = "SELECT * FROM `order`";
                     $result = mysqli_query($conn,$sql);
                         if($result->num_rows>0){
-                            echo 'good';
+                            echo 'good, there is data in table';
+                        }
+                        else
+                        {
+                            echo "Empty table";
                         }
                         // output data of each row
                         while($row = $result->fetch_assoc()) {

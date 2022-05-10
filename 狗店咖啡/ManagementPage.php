@@ -34,9 +34,9 @@
         <ul id="nav">
             <li><a href="">DataBase Manipulation</a>
                 <ul style="margin-top: 5px;">
-                    <li>ADD</li>
-                    <li>Delete</li>
-                    <li>Select</li>
+                    <li><a href="add.html">ADD</a></li>
+                    <li><a href="delete.html">Delete</a></li>
+                    <li><a href="select.html">Select</a></li>
                 </ul>
             </li>
             <li><a href="Social Dog.html">Return to the Home</a></li>

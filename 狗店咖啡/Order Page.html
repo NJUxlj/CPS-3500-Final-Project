@@ -3,7 +3,7 @@
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>SocialDogWKUOderingPage</title>
+ <title>SocialDog-WKU-OrderingPage</title>
  <link rel="stylesheet" type="text/css" href="CSS/style.css">
  <link rel="stylesheet" type="text/css" href="CSS/all.css">
  <link rel="stylesheet" type="text/css" href="CSS/all.min.css" >
@@ -59,25 +59,30 @@
                 <fieldset >
                     <!-- lengend is the title for fieldset -->
                     <legend style="text-decoration: solid;"> Order</legend>
-                    <label for="">
-                        User: <input type="text" name="user" placeholder="UserId" required>
+                    <label for="user">
+                        User: <input type="text" id="user" name="user" placeholder="UserId" required>
+                    </label>
+                    <label for="password">
+                        Password: <input type="password" id="password" name="password" placeholder="Password" value="000000" required>
+                    </label>
+                    <label for="orders">
+                        Orders: <input type="text" id="orders" name="orders" list="menuform" placeholder="Order your drink" required>
+                    </label>
+                    <label for="studentid">
+                        StudentId: <input type="text" id="studentid" placeholder="studentid" required>
                     </label>
                     <label for="">
-                        Password: <input type="password" name="password" placeholder="Password" required>
+                        <label for="note"> Notes </label> 
+                        <textarea name="note" id="note" placeholder="Your Notes to us"></textarea>
                     </label>
+<!-- --------------------------------甜度------------------------------------ -->
                     <label for="">
-                        Orders: <input type="text" name="orders" list="menuform" placeholder="Order your drink" required>
+                        Sugar Level:<br><br> 
+                        Full Sugar<input type="radio"  value="FullSugar" >
+                        Half Sugar<input type="radio"  value="HalfSugar" >
+                        No Sugar<input type="radio"  value="NoSugar" >
                     </label>
-                    <label for="">
-                        StudentId: <input type="text"  placeholder="studentid" required>
-                    </label>
-                    <label for="">
-                        <label for="vehicle1"> Notes </label> 
-                        <textarea name="note" placeholder="Your Notes to us"></textarea>
-                    </label>
-                    <label for="">
-                        Sugar Level:<br><br> Full Sugar<input type="radio"  value="FullSugar" >Half Sugar<input type="radio"  value="HalfSugar" >No Sugar<input type="radio"  value="NoSugar" >
-                    </label>
+
                     <label for="">
                         Toppings: <br><br>
                         Pearl <input type="checkbox" id=""  value="1">

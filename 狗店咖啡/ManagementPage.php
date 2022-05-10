@@ -70,7 +70,9 @@
                         }
                         // output data of each row
                         while($row = $result->fetch_assoc()) {
-                          echo "<tr><td>".$row["user"]."</td><td>".$row["password"]."</td><td>".$row["orders"]."</td><td>".$row["note"]."</td></tr>";
+                          echo "<tr><td>" . $row["user"] . "</td><td>" . $row["password"] . 
+                          "</td><td>" . $row["orders"] . "</td><td>" . $row["note"]. 
+                          "</td></tr>";
                         }
                         echo "</table>";
                      
